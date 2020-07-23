@@ -14,7 +14,7 @@ public class SpinnerSample3Activity extends AppCompatActivity implements Adapter
 
 
     String[] countryNames={"Germany","China","Denmark","France","Iran","Spain"};
-    int flags[] = {R.drawable.flag_de, R.drawable.flag_cn, R.drawable.flag_dk, R.drawable.flag_fr, R.drawable.flag_ir, R.drawable.flag_es};
+    int[] flags = {R.drawable.flag_de, R.drawable.flag_cn, R.drawable.flag_dk, R.drawable.flag_fr, R.drawable.flag_ir, R.drawable.flag_es};
 
 
     @Override

@@ -36,16 +36,8 @@ public class SpinnerSample1Activity extends AppCompatActivity implements Adapter
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         switch (view.getId()) {
             case R.id.spinner:
-                item = parent.getItemAtPosition(position).toString();
-                Toast.makeText(this, "Selected: " + item, Toast.LENGTH_SHORT).show();
-                break;
-
-            case R.id.spinner2:
-                item = parent.getItemAtPosition(position).toString();
-                Toast.makeText(this, "Selected: " + item, Toast.LENGTH_SHORT).show();
-                break;
-
             case R.id.spinner3:
+            case R.id.spinner2:
                 item = parent.getItemAtPosition(position).toString();
                 Toast.makeText(this, "Selected: " + item, Toast.LENGTH_SHORT).show();
                 break;
